@@ -1,0 +1,20 @@
+Execute this command in terminal 
+
+pip install PyQt5
+_______________________________________________________
+If you face problem then execute this 
+command given below in the terminal:-
+
+pip install PyQtWebEngine
+________________________________________________________
+
+If you still got problems with PyQt, try uninstalling all of the PyQt related libraries:
+
+pip uninstall PyQt5
+pip uninstall PyQt5-sip
+pip uninstall PyQtWebEngine
+
+Then install them again, which should fix the following errors:
+
+ModuleNotFoundError: No module named 'PyQt5.sip'
+ModuleNotFoundError: No module named 'PyQt5.QtWebEngineWidgets'
